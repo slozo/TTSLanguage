@@ -37,6 +37,10 @@ $PATH_TO_TTSLanguage_EXECUTABLE "$myVar"
 ```
 NOTE: `$PATH_TO_TTSLanguage_EXECUTABLE` is the place on disk where you stored `TTSLanguage` executable.
 
+### Shortcuts
+
+Shortcuts file is in `Playground/Testing.playground/Resources/TTSLangShort.shortcut`. Please adjust the location of the `TTSLanguage` executable.
+
 ## Dependencies
 
 - HTML parsing with `SwiftSoup` (https://github.com/scinfu/SwiftSoup.git)
