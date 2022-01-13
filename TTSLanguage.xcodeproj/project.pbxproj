@@ -52,11 +52,11 @@
 /* Begin PBXFileReference section */
 		27609043278F29D400019C1B /* TTSLanguage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TTSLanguage; sourceTree = BUILT_PRODUCTS_DIR; };
 		27609046278F29D400019C1B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		278CE9C5279071FF002135AE /* Testing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Testing.playground; path = ../Testing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		278CE9CB279073BC002135AE /* TTSLanguageLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTSLanguageLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		278CE9CD279073BC002135AE /* TTSLanguageLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSLanguageLib.h; sourceTree = "<group>"; };
 		278CE9CE279073BC002135AE /* TTSLanguageLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TTSLanguageLib.docc; sourceTree = "<group>"; };
 		278CE9D527908113002135AE /* Synth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synth.swift; sourceTree = "<group>"; };
+		278CE9E027908C66002135AE /* Testing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Testing.playground; path = Playground/Testing.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		2760903A278F29D400019C1B = {
 			isa = PBXGroup;
 			children = (
-				278CE9C5279071FF002135AE /* Testing.playground */,
+				278CE9DF27908C5F002135AE /* Playground */,
 				27609045278F29D400019C1B /* TTSLanguage */,
 				278CE9CC279073BC002135AE /* TTSLanguageLib */,
 				27609044278F29D400019C1B /* Products */,
@@ -122,6 +122,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		278CE9DF27908C5F002135AE /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				278CE9E027908C66002135AE /* Testing.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
