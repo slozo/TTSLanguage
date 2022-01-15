@@ -22,7 +22,11 @@ In order to use it in different places remember to store `TTSLanguageLib.framewo
 
 ### Building
 
-Everything could be build using Xcode
+Everything could be build using Xcode or with: 
+
+```
+$ xcodebuild -workspace TTSLanguage.xcodeproj/project.xcworkspace -scheme TTSLanguage archive -archivePath $PWD/build/TTSLanguage.xcarchive && open build/TTSLanguage.xcarchive/Products/usr/local/bin/ 
+```
 
 ## macOS Service
 
